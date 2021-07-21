@@ -19,7 +19,7 @@ enum layers {
     _QWERTY = 0,
     _GAME, // Comentario añadido en branch de prueba.
     _LOWER,
-    _RAISE,
+    _RAISE, // Añado segundo comentario en commit número 2.
     _ADJUST
 };
 
