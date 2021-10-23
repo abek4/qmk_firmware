@@ -12,7 +12,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include QMK_KEYBOARD_H
-#include keymap_extras/keymap_spanish.h
+#include "keymap_spanish.h"
 
 enum layers {
     _QWERTY = 0,
@@ -60,7 +60,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  */
     [_LOWER] = LAYOUT(
       _______, KC_EXLM, KC_AT,   KC_LCBR, KC_RCBR, KC_PIPE,                                     _______, _______, _______, _______, _______, KC_BSLS,
-      _______, KC_HASH, KC_DLR,  KC_LPRN, KC_RPRN, KC_GRV,                                      ES_ASTR, ES_QUOT, ES_MINS, ES_IQUE, ES_QUES, ES_PLUS,
+      _______, KC_HASH, KC_DLR,  KC_LPRN, KC_RPRN, KC_GRV,                                      ES_ASTR S, ES_QUOT, ES_MINS, ES_IQUE S, ES_QUES S, ES_PLUS,
       _______, KC_PERC, KC_CIRC, KC_LBRC, KC_RBRC, KC_TILD, _______, _______, _______, _______, ES_SLSH, KC_EQL,  KC_COMM, KC_DOT,  KC_SLSH, KC_MINS,
                                  _______, _______, _______, KC_SCLN, KC_EQL,  KC_EQL,  KC_SCLN, _______, _______, _______
     ),
