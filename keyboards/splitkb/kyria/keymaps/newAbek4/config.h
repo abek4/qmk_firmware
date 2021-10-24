@@ -22,7 +22,12 @@
 #    define RGBLIGHT_SAT_STEP  8
 #    define RGBLIGHT_VAL_STEP  8
 #    define RGBLIGHT_LIMIT_VAL 150
+
+#    define RGB_DISABLE_TIMEOUT 1200000     // 20 minutes (20 * 60 * 1000ms)
+#    define RGB_DISABLE_WHEN_USB_SUSPENDED  // Si fallan estos dos es culpa de Jonboi
 #endif
+
+#define ENCODER_DIRECTION_FLIP
 
 // Lets you roll mod-tap keys
 #define IGNORE_MOD_TAP_INTERRUPT
