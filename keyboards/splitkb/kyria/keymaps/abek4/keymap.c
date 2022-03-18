@@ -20,7 +20,7 @@ enum layers {
     _QWERTY = 0,
     _LOWER,
     _RAISE,
-    _FUNCTION
+    _FUNCTION,
     _ADJUST,
 };
 
