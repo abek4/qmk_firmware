@@ -25,6 +25,11 @@
 #endif
 
 // Lets you roll mod-tap keys
-#define IGNORE_MOD_TAP_INTERRUPT
+//#define IGNORE_MOD_TAP_INTERRUPT
 #define ENCODER_DIRECTION_FLIP
 #define ENCODER_RESOLUTION 4
+// Using less than 8 layers so we can enable this for lower firmware size
+#define LAYER_STATE_8BIT
+#undef LOCKING_SUPPORT_ENABLE
+#undef LOCKING_RESYNC_ENABLE
+#define NO_MUSIC_MODE
