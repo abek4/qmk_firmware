@@ -9,3 +9,6 @@ CONSOLE_ENABLE = no
 COMMAND_ENABLE = no
 MOUSEKEY_ENABLE = no
 MUSIC_ENABLE = no
+
+# Split keyboard rules
+SPLIT_KEYBOARD = yes
